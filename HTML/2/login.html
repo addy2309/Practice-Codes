@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>LOGIN</title>
+
+
+</head>
+<body>
+<form name="login" action="page.html" onsubmit="return loginCheck()" method="post">
+USERNAME:<input type="text" placeholder="Login ID" name="uname" required><br><br>
+PASSWORD:<input type="password" placeholder="User Password" name="upass" required> <br><br>
+<input value="Submit"  type="submit"> &nbsp &nbsp &nbsp  <button id="butt">New User</button>
+</form>
+
+<form name="signup" action="newUser()" onsubmit="return userCheck()" method="post">
+USERNAME:<input type="text" placeholder="login id here.." name="newUserName" required><br><br>
+PASSWORD:<input type="password" placeholder="password here.." name="newUserPass" required> <br><br>
+PASSWORD:<input type="password" placeholder="password here.." name="checkUserPass" required> <br><br>
+<input value="Sign Up"  type="submit">
+</form>
+
+<script src="loginscript.js">
+
+</script>
+</body>
+</html>
